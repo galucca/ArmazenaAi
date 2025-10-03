@@ -1,14 +1,15 @@
-
+// src/pages/Home.jsx
 import React from "react";
 import Card from "../components/Card";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>📦 ArmazenaAi</h1>
-      <p>Bem-vindo ao sistema de controle de estoque!</p>
+    <div className="home-container">
+      <h1 className="home-title">📦 ArmazenaAi</h1>
+      <p className="home-subtitle">Bem-vindo ao sistema de controle de estoque!</p>
       
-      <div style={{ display: "flex", gap: "20px", marginTop: "20px" }}>
+      <div className="cards-container">
         <Card title="Total de Produtos" value={120} />
         <Card title="Estoque Crítico" value={8} />
         <Card title="Mais Vendidos" value="Camisas" />
