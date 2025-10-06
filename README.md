@@ -1,51 +1,43 @@
-# ArmazenaAI
+# 🏪 ArmazenaAI — Sistema de Controle de Estoque Inteligente
 
-## 📝 Objetivo do Projeto
+## 🧾 Sobre o Projeto
+O **ArmazenaAI** é um sistema de **controle de estoque** desenvolvido em grupo com o objetivo de otimizar a gestão de produtos de pequenas e médias empresas.  
+O sistema permite **cadastrar, consultar, atualizar e excluir produtos**.
 
-O **ArmazenaAI** é um sistema de controle de estoque que visa otimizar a gestão de produtos em empresas de diversos portes.  
-O sistema permite:
+O projeto também visa aplicar boas práticas de **desenvolvimento full stack**, incluindo integração entre front-end, back-end e banco de dados.
 
-- Cadastro e atualização de produtos
-- Monitoramento de estoque em tempo real
-- Alertas automáticos para níveis críticos
-- Previsão de demanda utilizando inteligência artificial
+---
 
-## 💻 Tecnologias Utilizadas
+## 🏠 Minha Parte — Página Home
+Fiquei responsável pelo desenvolvimento da **página Home** do sistema.  
+Essa tela tem como objetivo **receber o usuário**, **exibir um resumo das funcionalidades** e facilitar a navegação entre as principais áreas do sistema.
 
-### Back-end
-- Node.js com Express.js
-- APIs RESTful com arquitetura modular
+### 🔹 Funcionalidades da Home:
+- Exibição do **título e descrição** do sistema;  
+- Inclusão de um **menu de navegação (Header)** com links principais;  
+- Layout responsivo e visual limpo;  
+- Organização inicial para integração com futuras páginas (Produtos, Categorias, Relatórios etc).
 
-### Front-end
-- React.js para interfaces interativas e responsivas
-- Dashboards para estatísticas e gerenciamento de estoque
+### 🧱 Tecnologias utilizadas na Home:
+- **React.js** — estrutura principal do front-end  
+- **CSS3** — estilização da interface  
+- **Vite** — ambiente de desenvolvimento rápido e leve  
 
-### Banco de Dados
-- MongoDB para armazenamento de produtos, categorias, usuários e histórico de movimentações
+---
 
-### Criptografia e Segurança
-- JWT para autenticação
-- bcrypt para criptografia de senhas
-- HTTPS para comunicação segura
+## 💻 Tecnologias do Projeto
+### 🧩 Back-end
+- **Node.js** com **Express.js**  
+- **API RESTful** para manipulação de produtos  
+- **MongoDB** como banco de dados principal  
 
-### Containerização
-- Docker para execução padronizada em diferentes ambientes
+### 🧩 Front-end
+- **React.js** com **Vite**  
+- **Axios** para consumo da API  
+- **React Router** para navegação entre páginas  
 
-### Inteligência Artificial
-- Machine Learning para previsão de demanda e alertas automáticos
+### 🔒 Segurança e Outras Tecnologias
+- **Docker** para containerização da aplicação  
+- **Inteligência Artificial (futura implementação)** para previsão de demanda  
 
-### Arquitetura da Aplicação
-- Arquitetura em camadas: Front-end, Back-end e Banco de Dados
-- Integração modular de serviços de inteligência artificial
-- Containerização garante portabilidade e manutenção simplificada
-
-## ⚙️ Instalação e Execução
-
-### Pré-requisitos
-- Node.js v18 ou superior
-- MongoDB v6 ou superior
-- Docker (opcional para containerização)
-
-### Clonando o Repositório
-```bash
-git clone https://github.com/galucca/ArmazenaAi
+---
